@@ -1,0 +1,17 @@
+.single {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    width: 300px;
+    height: 35px;
+    font-size: 26px;
+}
+
+.multiple {
+    overflow: hidden;
+    display: -webkit-box;
+    width: 550px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

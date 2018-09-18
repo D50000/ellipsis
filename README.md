@@ -17,7 +17,15 @@ width: 300px;
 ```
 overflow:  hidden;
 display:  -webkit-box;
--webkit-line-clamp:  4;
+-webkit-line-clamp:  4;   //webkit has a support issue
 -webkit-box-orient:  vertical;
 width:  550px;
 ```
+
+
+### note
+ 1. webkit-line-clamp support:
+https://caniuse.com/#search=line-clamp
+
+ 2. other implement ways:
+https://css-tricks.com/line-clampin/
